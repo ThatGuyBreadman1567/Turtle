@@ -1,0 +1,23 @@
+import turtle
+turtle.speed(1)
+turtle.penup()
+turtle.right(90)
+turtle.forward(100)
+turtle.left(90)
+turtle.pendown()
+turtle.bgcolor('blue')
+turtle.pencolor('red')
+turtle.fillcolor('grey')
+turtle.begin_fill()
+turtle.circle(100)
+turtle.end_fill()
+turtle.left(90)
+turtle.penup()
+turtle.forward(85)
+turtle.left(90)
+turtle.forward(45)
+turtle.pendown()
+turtle.write('''This is my circle, 
+There are many like it,
+ But this one is mine''')
+turtle.done()
